@@ -24,8 +24,8 @@ header ul{
 header ul li{
     display: inline-block;
 }
-header ul li.fliclog {
-    margin-left:10px;
+header ul li .fliclog {
+    margin-left:15px;
 }
 
 #logoname{
@@ -42,6 +42,7 @@ footer{
     background-color: white;
     padding-bottom: 20px;
     padding-top: 30px;
+    margin-top: 20px;
 }
 main #hero{
     width: 100%;
@@ -55,14 +56,21 @@ main p{
 main #divofdivs{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-image: url('list-bg.png');
-    margin-bottom: px;
+    background-image: url('./list-bg.png');
+    /* margin-bottom: px; */
+}
+main h1{
+font-size: 40px;
+margin-bottom: -20px;
+
+
+
 }
 footer{
     display: grid;
     grid-template-rows: 150px 2px 150px;
 }
-footer #haha{
+footer #small{
 background-color: gray;
 
 }
@@ -78,7 +86,8 @@ background-color: gray;
     color: white;
 }
 #small img {
-    margin-left: 50%;
+    margin-left: 48%;
+   
     margin-top: -15px;
 }
 #bottom {
