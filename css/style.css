@@ -7,11 +7,12 @@ body section{
 }
 body{
     display: grid;
-    grid-template-rows: 100px 1fr 100px;
+    grid-template-rows: 5px 1fr 100px;
 }
 header{
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     background-color: white;
+    margin-top: -30px;
 }
 header div {
     display: inline-block;
@@ -36,7 +37,9 @@ header ul li .fliclog {
 main{
     background-color: white;
     padding-bottom: 20px;
-    padding-top: 30px;
+    margin-top: 15px;
+    padding-top: 20px;
+    
 }
 footer{
     background-color: white;
@@ -46,9 +49,11 @@ footer{
 }
 main #hero{
     width: 100%;
+   
 }
 main #print{
     margin-left: 950px;
+   
 }
 main p{
     text-indent: 40px;
